@@ -6,8 +6,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-    margin-left: 94px;
-    margin-right: 94px;
+
 }
 
 .logo {
@@ -49,9 +48,9 @@ nav {
     left: 0;
 }
 .wallet-button {
-    background-color: none;
     font-family: 'Poppins', sans-serif;
     color: #fff;
+    background-color: #1E1E1E;
     font-size: 18px;
     padding: 0.5rem 1rem;
     border-radius: 12px;
