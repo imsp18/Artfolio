@@ -4,6 +4,8 @@
 .hero-container {
     padding-top: 80px;
     display: flex;
+    margin-left: 94px;
+    margin-right: 94px;
 }
 
 .hero-content {

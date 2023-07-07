@@ -1,0 +1,44 @@
+.tape-container {
+
+    width: 1853.918px;
+    height: 193.67px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.tape-1 {
+    height: 83px;
+    width: 1530px;
+    transform: rotate(2.669deg);
+    background-color: white;
+}
+
+.tape-1 p {
+    color: #000;
+    font-family: Work Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.96px;
+    text-transform: uppercase;
+
+}
+
+.tape-2 {
+    width: 2000px;
+    height: 83px;
+    transform: rotate(2.669deg);
+    background: #49D886;
+}
+
+.tape-2 p {
+    color: #000;
+    font-family: Work Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.96px;
+    text-transform: uppercase;
+}
