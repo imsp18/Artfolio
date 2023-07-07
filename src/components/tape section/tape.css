@@ -1,9 +1,10 @@
 .tape-container {
-
-    width: 1853.918px;
-    height: 193.67px;
+    max-width: fit-content;
+    width: 100%;
+    height: auto;
     display: flex;
     flex-direction: column-reverse;
+    overflow: hidden;
 }
 
 .tape-1 {
@@ -11,6 +12,7 @@
     width: 1530px;
     transform: rotate(2.669deg);
     background-color: white;
+    margin-bottom: 70px;
 }
 
 .tape-1 p {
@@ -26,6 +28,7 @@
 }
 
 .tape-2 {
+    margin-top: 70px;
     width: 2000px;
     height: 83px;
     transform: rotate(2.669deg);

@@ -26,10 +26,10 @@
 .hero-text h1 {
     color: #02B377;
     font-family: Work Sans;
-    font-size: 50px;
+    font-size: 40px;
     font-style: normal;
     font-weight: 400;
-    letter-spacing: -4%;
+    /* letter-spacing: -4%; */
 
 }
 
@@ -42,7 +42,7 @@
 }
 
 .discover-rectangle {
-    width: 321px;
+    width: 421px;
     height: 206px;
     border-radius: 20px;
     background: #02B377;
@@ -69,7 +69,7 @@
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
+    /* line-height: normal; */
     letter-spacing: -1.8px;
 }
 
@@ -137,17 +137,23 @@
 
 .hero-image {
     display: flex;
-    flex-direction: column;
-    width: 701.292px;
-    height: 639.372px;
+    flex-direction: row;
+    width: 500px;
+    flex-wrap: wrap;
+    height: 400px;
+   
 }
 
-.row-1 img {
+.hero-image img {
+    height: 200px;
+    width: fit-content;
     padding-left: 10px;
     padding-bottom: 10px;
 }
 .row-2 {
-    padding-left: 188px;
+    display: flex;
+    flex-direction: row;
+    /* padding-left: 188px; */
 }
 .row-2 img {
     padding-left: 10px;
