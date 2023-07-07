@@ -50,30 +50,29 @@ const Hero = () => {
               </svg>
             </button>
           </div>
-        </div>
-        <div className="stats">
-          <div className="stats-1">
-            <h1>30k+</h1>
-            <p>Artworks</p>
-          </div>
-          <div className="stats-2">
-            <h1>500+</h1>
-            <p>Artists</p>
-          </div>
-          <div className="stats-3">
-            <h1>10+</h1>
-            <p>Quiz</p>
+          <div className="stats">
+            <div className="stats-1">
+              <h1>30k+</h1>
+              <p>Artworks</p>
+            </div>
+            <div className="stats-2">
+              <h1>500+</h1>
+              <p>Artists</p>
+            </div>
+            <div className="stats-3">
+              <h1>10+</h1>
+              <p>Quiz</p>
+            </div>
           </div>
         </div>
       </div>
       <div className="hero-image">
-        {/* <div className="row-1"> */}
-        <img src={image1} alt="image1" />
-        <img src={image2} alt="image2" />
-        {/* </div> */}
-        <div className="row-2">
+        <div className="row-1">
+          <img src={image1} alt="image1" />
+          <img src={image2} alt="image2" />
           <img src={image3} alt="image3" />
-
+        </div>
+        <div className="row-2">
           <img src={image4} alt="image4" />
           <img src={image5} alt="image5" />
         </div>

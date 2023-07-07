@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Work+Sans:wght@400;500;600;700&display=swap');
+
+.about-container{
+    /* padding-top: 80px; */
+    display: flex;
+    margin-left: 94px;
+    margin-right: 94px;
+    
+
+}
+.title{
+    color: black;
+    text-align: center;
+    font-size: xx-large;
+    letter-spacing: 0.2rem;
+    font-weight: bold;
+    font-family: Work Sans;
+}
+.imgtxt{
+    /* margin-top: 50px;s */
+    display: flex;
+    padding-right: 20px;
+    justify-content:space-around;
+    
+    
+}
+.desc{
+    color: black;
+    margin-top: 130px;
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: 500;
+    /* flex-direction: row;s */
+    font-size: large;
+    margin-bottom: 50px;
+    text-align: left;
+    letter-spacing: 0.16rem;
+    font-family: Work Sans
+}
