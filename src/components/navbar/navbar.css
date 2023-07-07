@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Work+Sans:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    margin-left: 94px;
+    margin-right: 94px;
+}
+
+.logo {
+    font-size: 36px;
+    font-family: 'Playfair Display';
+    color: #fff;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    font-family: 'Work Sans', sans-serif;
+    color: #fff;
+    font-size: 24px;
+}
+
+.menu li {
+    margin-right: 24px;
+    cursor: pointer;
+}
+
+.wallet-button {
+    background-color: none;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    font-size: 18px;
+    padding: 0.5rem 1rem;
+    border-radius: 12px;
+    border-color: #fff;
+    cursor: pointer;
+}
+
+.App {
+    text-align: center;
+}
