@@ -6,7 +6,7 @@ import Star from "./assets/Star.svg";
 function About() {
   return (
     <div className="title">
-      ABOUT US
+      ABOUT <span>US</span>
       <div className="about-container">
         <div className="imgtxt">
           <img

@@ -20,21 +20,22 @@
 .imgtxt{
     /* margin-top: 50px;s */
     display: flex;
-    padding-right: 20px;
     justify-content:space-around;
     
     
 }
 .desc{
     color: black;
-    margin-top: 130px;
+    margin-top: 110px;
     display: flex;
     flex-wrap: wrap;
-    font-weight: 500;
+    font-weight: 400;
     /* flex-direction: row;s */
-    font-size: large;
+    font-size: 26px;
     margin-bottom: 50px;
-    text-align: left;
-    letter-spacing: 0.16rem;
-    font-family: Work Sans
+    text-align: justify;
+    font-family: Work Sans;
+    line-height: 39px;
+    margin-bottom: 10px;
+
 }
