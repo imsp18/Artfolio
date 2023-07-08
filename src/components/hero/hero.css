@@ -147,16 +147,17 @@
     margin-top: 20px;
     width: auto;
     flex-wrap: wrap;
+    justify-content: flex-end;
     
 }
 .row-1{
-    height: 200px;
+    /* height: 200px; */
     width: auto;
     display: flex;
     margin-bottom: 10px;
 }
 .row-2 {
-    height: 200px;
+    /* height: 200px; */
     width: auto;
     display: flex;
     margin-bottom: 10px;
