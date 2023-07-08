@@ -52,7 +52,7 @@ nav {
 .wallet-button {
     font-family: 'Poppins', sans-serif;
     color: #fff;
-    background-color: #000;
+    background: none;
     font-size: 18px;
     padding: 0.5rem 1rem;
     border-radius: 12px;
