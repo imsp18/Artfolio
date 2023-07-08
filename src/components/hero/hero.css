@@ -102,6 +102,10 @@
     text-align: center;
     padding-right: 3px;
 }
+.discover .navlink{
+    text-decoration: none;
+    color: #000;
+}
 
 .stats {
     display: flex;
@@ -136,14 +140,6 @@
     text-transform: capitalize;
 }
 
-/* .hero-image {
-    display: flex;
-    flex-direction: row;
-    width: 500px;
-    flex-wrap: wrap;
-    height: 400px;
-   
-} */
 
 .hero-image {
     display: flex;

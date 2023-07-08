@@ -1,0 +1,73 @@
+.disc-hero-container {
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 94px;
+    margin-right: 94px;
+
+}
+
+.disc-hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    padding-bottom: 40px;
+    width: 1260.694px;
+}
+
+.disc-hero-text h1 {
+    color: #02B377;
+    font-family: Work Sans;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -2px;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.disc-hero-text span {
+    color: #02B377;
+    font-family: Work Sans;
+    font-weight: 600;
+    font-size: 50px;
+    letter-spacing: 0%;
+}
+
+.disc-hero-text p {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -2.08px;
+}
+
+.disc-hero-rectangle {
+    display: flex;
+    flex-direction: row;
+}
+
+.disc-hero-button {
+    border: 1.5px solid #FFF;
+    color: rgba(255, 255, 255, 0.36);
+    background: none;
+    height: 71px;
+    width: 1260.694px;
+    border-radius: 24px;
+}
+
+input[type="text"] {
+    font-family: Work Sans;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -2.08px;
+    padding-left: 15px;
+}
+

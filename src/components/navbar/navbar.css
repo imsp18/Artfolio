@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Work+Sans:wght@400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -49,6 +50,14 @@ nav {
     width: 100%;
     left: 0;
 }
+.menu li .active {
+    color: #fff;
+}
+.navlink {
+    text-decoration: none;
+    color: #fff;
+}
+
 .wallet-button {
     font-family: 'Poppins', sans-serif;
     color: #fff;

@@ -5,6 +5,7 @@ import image2 from "./assests/image-2.png";
 import image3 from "./assests/image-3.png";
 import image4 from "./assests/image-4.png";
 import image5 from "./assests/image-5.png";
+import { NavLink } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -28,7 +29,7 @@ const Hero = () => {
               </p>
             </div>
             <button className="discover-button">
-              <h1>Discover More</h1>{" "}
+              <NavLink to="/discover" className="navlink"><h1>Discover More</h1></NavLink>{" "}
               <svg
                 width="24"
                 height="24"
