@@ -5,18 +5,21 @@
     display: flex;
     flex-direction: column-reverse;
     overflow: hidden;
+    margin-top: 100px;
 }
 
 .tape-1 {
+    position: relative;
     height: 83px;
-    width: 1530px;
-    transform: rotate(2.669deg);
-    background-color: white;
+    width: 100%;
+    background-color: #000;
     margin-bottom: 70px;
+    overflow: hidden;
 }
 
 .tape-1 p {
-    color: #000;
+    position: absolute;
+    color: #fff;
     font-family: Work Sans;
     font-size: 24px;
     font-style: normal;
@@ -27,21 +30,31 @@
 
 }
 
-.tape-2 {
-    margin-top: 70px;
-    width: 2000px;
-    height: 83px;
-    transform: rotate(2.669deg);
-    background: #49D886;
+.tape-1 p:nth-child(1) {
+    animation: scrollTextStart 8s infinite linear;
 }
 
-.tape-2 p {
-    color: #000;
-    font-family: Work Sans;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    letter-spacing: -0.96px;
-    text-transform: uppercase;
+.tape-1 p:nth-child(2) {
+    animation: scrollTextEnd 8s infinite linear ;
+}
+
+
+@keyframes scrollTextStart {
+    from {
+        transform: translateX(0%);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes scrollTextEnd {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
 }
