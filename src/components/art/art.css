@@ -3,23 +3,112 @@
     height: 1479.189px;
     display: flex;
     flex-wrap: wrap;
+    margin-left: 94px;
+    margin-right: 94px;
+    margin-top: 80px;
 }
 
-.art-container .row-1 {
-    height: 352.496px;
-}
-.art-1{
-    
-}
-
-.art-container .row-2 {
-    height: 352.496px;
-}
-
-.art-container .row-3 {
-    height: 352.496px;
+.art-container .row1,
+.row2,
+.row3,
+.row4 {
+    width: 1242.165px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 23px;
 }
 
-.art-container .row-4 {
-    height: 352.496px;
+.Art-1,
+.Art-2,
+.Art-3,
+.Art-4,
+.Art-5,
+.Art-6,
+.Art-7,
+.Art-8,
+.Art-9,
+.Art-10,
+.Art-11,
+.Art-12,
+.Art-13,
+.Art-14,
+.Art-15,
+.Art-16 {
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.Art-info {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+.Art-info .Art-Name {
+    color: #000;
+    font-family: Work Sans;
+    font-style: normal;
+    line-height: normal;
+    text-align: left;
+
+}
+
+.Art-Name h1 {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 5px 0 0 0;
+}
+
+.Art-Name p {
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0;
+}
+
+.Art-image {
+    width: 284.233px;
+    height: 284.233px;
+    border-radius: 20px;
+    border: 2.5px solid #02B377;
+
+}
+
+.Interaction-Button {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.Stats ul,
+.Images ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 5px 0 0 0;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding-left: 10px;
+
+}
+
+.Images ul li {
+    padding-left: 10px;
+}
+
+.Stats ul li {
+    padding-left: 15px;
+    color: rgba(43, 43, 43, 0.50);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+}
+
+.Images ul li:hover {
+    cursor: pointer;
 }

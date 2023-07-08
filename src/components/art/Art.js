@@ -23,7 +23,7 @@ import image16 from "./assests/image16.png";
 const Art = () => {
     return (
         <div className="art-container">
-            <div className="row-1">
+            <div className="row1">
                 <div className="Art-1">
                     <div className="Art-info">
                         <div className="Interaction-Button">
@@ -50,9 +50,9 @@ const Art = () => {
                             </div>
                             <div className="Stats">
                                 <ul>
-                                    <li>5k</li>
-                                    <li>1k</li>
-                                    <li>40k</li>
+                                    <li>5K</li>
+                                    <li>1K</li>
+                                    <li>40K</li>
                                 </ul>
                             </div>
                         </div>
@@ -91,9 +91,9 @@ const Art = () => {
                             </div>
                             <div className="Stats">
                                 <ul>
-                                    <li>5k</li>
-                                    <li>1k</li>
-                                    <li>40k</li>
+                                    <li>5K</li>
+                                    <li>1K</li>
+                                    <li>40K</li>
                                 </ul>
                             </div>
                         </div>
@@ -132,9 +132,9 @@ const Art = () => {
                             </div>
                             <div className="Stats">
                                 <ul>
-                                    <li>5k</li>
-                                    <li>1k</li>
-                                    <li>40k</li>
+                                    <li>5K</li>
+                                    <li>1K</li>
+                                    <li>40K</li>
                                 </ul>
                             </div>
                         </div>
@@ -173,9 +173,9 @@ const Art = () => {
                             </div>
                             <div className="Stats">
                                 <ul>
-                                    <li>5k</li>
-                                    <li>1k</li>
-                                    <li>40k</li>
+                                    <li>5K</li>
+                                    <li>1K</li>
+                                    <li>40K</li>
                                 </ul>
                             </div>
                         </div>
@@ -189,7 +189,7 @@ const Art = () => {
                     </div>
                 </div>
             </div>
-            <div className="row-2">
+            <div className="row2">
                 <div className="Art-5">
                     <div className="Art-info">
                         <div className="Interaction-Button">
@@ -216,9 +216,9 @@ const Art = () => {
                             </div>
                             <div className="Stats">
                                 <ul>
-                                    <li>5k</li>
-                                    <li>1k</li>
-                                    <li>40k</li>
+                                    <li>5K</li>
+                                    <li>1K</li>
+                                    <li>40K</li>
                                 </ul>
                             </div>
                         </div>
@@ -257,9 +257,9 @@ const Art = () => {
                             </div>
                             <div className="Stats">
                                 <ul>
-                                    <li>5k</li>
-                                    <li>1k</li>
-                                    <li>40k</li>
+                                    <li>5K</li>
+                                    <li>1K</li>
+                                    <li>40K</li>
                                 </ul>
                             </div>
                         </div>
@@ -298,9 +298,9 @@ const Art = () => {
                             </div>
                             <div className="Stats">
                                 <ul>
-                                    <li>5k</li>
-                                    <li>1k</li>
-                                    <li>40k</li>
+                                    <li>5K</li>
+                                    <li>1K</li>
+                                    <li>40K</li>
                                 </ul>
                             </div>
                         </div>
@@ -339,9 +339,9 @@ const Art = () => {
                             </div>
                             <div className="Stats">
                                 <ul>
-                                    <li>5k</li>
-                                    <li>1k</li>
-                                    <li>40k</li>
+                                    <li>5K</li>
+                                    <li>1K</li>
+                                    <li>40K</li>
                                 </ul>
                             </div>
                         </div>
@@ -355,7 +355,7 @@ const Art = () => {
                     </div>
                 </div>
             </div>
-            <div className="row-3">
+            <div className="row3">
                 <div className="Art-9">
                     <div className="Art-info">
                         <div className="Interaction-Button">
@@ -382,9 +382,9 @@ const Art = () => {
                             </div>
                             <div className="Stats">
                                 <ul>
-                                    <li>5k</li>
-                                    <li>1k</li>
-                                    <li>40k</li>
+                                    <li>5K</li>
+                                    <li>1K</li>
+                                    <li>40K</li>
                                 </ul>
                             </div>
                         </div>
@@ -423,9 +423,9 @@ const Art = () => {
                             </div>
                             <div className="Stats">
                                 <ul>
-                                    <li>5k</li>
-                                    <li>1k</li>
-                                    <li>40k</li>
+                                    <li>5K</li>
+                                    <li>1K</li>
+                                    <li>40K</li>
                                 </ul>
                             </div>
                         </div>
@@ -464,9 +464,9 @@ const Art = () => {
                             </div>
                             <div className="Stats">
                                 <ul>
-                                    <li>5k</li>
-                                    <li>1k</li>
-                                    <li>40k</li>
+                                    <li>5K</li>
+                                    <li>1K</li>
+                                    <li>40K</li>
                                 </ul>
                             </div>
                         </div>
@@ -505,9 +505,9 @@ const Art = () => {
                             </div>
                             <div className="Stats">
                                 <ul>
-                                    <li>5k</li>
-                                    <li>1k</li>
-                                    <li>40k</li>
+                                    <li>5K</li>
+                                    <li>1K</li>
+                                    <li>40K</li>
                                 </ul>
                             </div>
                         </div>
@@ -521,7 +521,7 @@ const Art = () => {
                     </div>
                 </div>
             </div>
-            <div className="row-4">
+            <div className="row4">
                 <div className="Art-13">
                     <div className="Art-info">
                         <div className="Interaction-Button">
@@ -548,9 +548,9 @@ const Art = () => {
                             </div>
                             <div className="Stats">
                                 <ul>
-                                    <li>5k</li>
-                                    <li>1k</li>
-                                    <li>40k</li>
+                                    <li>5K</li>
+                                    <li>1K</li>
+                                    <li>40K</li>
                                 </ul>
                             </div>
                         </div>
@@ -589,9 +589,9 @@ const Art = () => {
                             </div>
                             <div className="Stats">
                                 <ul>
-                                    <li>5k</li>
-                                    <li>1k</li>
-                                    <li>40k</li>
+                                    <li>5K</li>
+                                    <li>1K</li>
+                                    <li>40K</li>
                                 </ul>
                             </div>
                         </div>
@@ -630,9 +630,9 @@ const Art = () => {
                             </div>
                             <div className="Stats">
                                 <ul>
-                                    <li>5k</li>
-                                    <li>1k</li>
-                                    <li>40k</li>
+                                    <li>5K</li>
+                                    <li>1K</li>
+                                    <li>40K</li>
                                 </ul>
                             </div>
                         </div>
@@ -671,9 +671,9 @@ const Art = () => {
                             </div>
                             <div className="Stats">
                                 <ul>
-                                    <li>5k</li>
-                                    <li>1k</li>
-                                    <li>40k</li>
+                                    <li>5K</li>
+                                    <li>1K</li>
+                                    <li>40K</li>
                                 </ul>
                             </div>
                         </div>
