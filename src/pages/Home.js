@@ -4,6 +4,9 @@ import Tape from "../components/tape/Tape";
 import About from "../components/about/About";
 import Vision from "../components/vision/vision"; 
 import Mission from "../components/mission/Mission";
+import Feature from "../components/feature/Feature";  
+import Footer from "../components/footer/Footer";
+
 
 const App = () => {
   return (
@@ -13,6 +16,9 @@ const App = () => {
       <About />
       <Vision />
       <Mission />
+      <Feature />
+      <Footer />
+
     </div>
   );
 };
