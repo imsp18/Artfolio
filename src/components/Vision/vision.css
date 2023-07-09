@@ -1,0 +1,31 @@
+
+.title span{
+    color: #02b377;
+}
+.vision-container{
+    display: flex;
+    margin-left: 94px;
+    margin-right: 94px;
+    margin-top: 110px;
+    
+}
+.vision-container .imgtxt{  
+    display: flex;
+    justify-content:space-around;
+    
+    
+}
+.vision-container .desc{
+    color: black;
+    width: 608px;
+    margin-top: 110px;
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: 400;
+    font-size: 26px;
+    text-align: justify;
+    font-family: Work Sans;
+    line-height: 39px;
+    margin-bottom: 10px;
+
+}

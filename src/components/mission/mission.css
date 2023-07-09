@@ -1,0 +1,33 @@
+.mission-container{
+    /* padding-top: 80px; */
+    display: flex;
+    margin-left: 144px;
+    margin-right: 94px;
+    margin-top: 110px;
+}
+.title{
+    margin-top: 100px;
+}
+.title span{
+    color: #02b377;
+}
+.mission-container .imgtxt{
+    display: flex;
+    
+}
+.mission-container .desc{
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: 400;
+    margin-top: 110px;
+    width: 610px;
+    height: 274px;
+    font-size: 26px;
+    margin-bottom: 50px;
+    text-align: justify;
+    font-family: Work Sans;
+    line-height: 39px;
+    margin-bottom: 10px;
+
+}

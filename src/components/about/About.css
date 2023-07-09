@@ -12,13 +12,15 @@
 .title{
     color: black;
     text-align: center;
-    font-size: xx-large;
-    letter-spacing: 0.2rem;
-    font-weight: bold;
+    font-size: 45px;
+    font-weight: 500;
     font-family: Work Sans;
 }
+.title span{
+    color: #02b377;
+}
 .imgtxt{
-    /* margin-top: 50px;s */
+    /* margin-top: 50px; */
     display: flex;
     justify-content:space-around;
     

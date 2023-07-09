@@ -11,7 +11,7 @@ function About() {
         <div className="imgtxt">
           <img
             src={globeimage}
-            style={{ marginRight: "30px" }}
+            style={{ marginRight: "100px" }}
             alt="globeimage"
           />
 
