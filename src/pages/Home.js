@@ -4,8 +4,10 @@ import Tape from "../components/tape/Tape";
 import About from "../components/about/About";
 import Vision from "../components/vision/vision"; 
 import Mission from "../components/mission/Mission";
-import Feature from "../components/feature/Feature";  
+import Feature from "../components/feature/Feature"; 
+import Join from "../components/join/Join"; 
 import Footer from "../components/footer/Footer";
+
 
 
 const App = () => {
@@ -17,8 +19,8 @@ const App = () => {
       <Vision />
       <Mission />
       <Feature />
+      <Join />
       <Footer />
-
     </div>
   );
 };
