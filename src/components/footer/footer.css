@@ -3,7 +3,7 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    height: 280px;
+    height: 180px;
     width: 100%;
     background: #000;
 }

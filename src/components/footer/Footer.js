@@ -19,21 +19,14 @@ const Footer = () => {
                     <li><NavLink to="/learn" className="footer-navlink">Learn</NavLink></li>
                 </ul>
             </div>
-            <div className="footer-links">
-                <div className="footer-rights">
-                    <ul>
-                        <li><p>Artfolio © 2023</p></li>
-                        <li><p>Privacy Policy</p></li>
-                    </ul>
-                </div>
-                <div className="footer-socials">
-                    <img src={twitter} alt="" />
-                    <img src={instagram} alt="" />
-                    <img src={mail} alt="" />
-                </div>
+
+            <div className="footer-socials">
+                <img src={twitter} alt="" />
+                <img src={instagram} alt="" />
+                <img src={mail} alt="" />
             </div>
             <div className="footer-terms">
-                <p>All Rights Reserved</p>
+                <p>Artfolio © 2023</p>
             </div>
         </footer>
     );
