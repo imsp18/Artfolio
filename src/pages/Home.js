@@ -6,7 +6,6 @@ import Vision from "../components/vision/vision";
 import Mission from "../components/mission/Mission";
 import Feature from "../components/feature/Feature"; 
 import Join from "../components/join/Join"; 
-import Footer from "../components/footer/Footer";
 
 
 
@@ -20,7 +19,6 @@ const App = () => {
       <Mission />
       <Feature />
       <Join />
-      <Footer />
     </div>
   );
 };
