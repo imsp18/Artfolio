@@ -89,6 +89,12 @@ footer {
 
 }
 
+.footer-socials img:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+
 .footer-terms {
     height: 41px;
     background-color: #02b377;

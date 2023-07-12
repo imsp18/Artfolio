@@ -59,6 +59,7 @@ nav {
 }
 
 .wallet-button {
+    display: flex;
     font-family: 'Poppins', sans-serif;
     color: #fff;
     background: none;
@@ -67,6 +68,11 @@ nav {
     border-radius: 12px;
     border-color: #fff;
     cursor: pointer;
+    align-items: center;
+}
+
+.wallet-button img{
+    padding-left: 10px;
 }
 
 .App {
