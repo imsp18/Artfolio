@@ -8,7 +8,8 @@ import logout from './assets/log-out.svg';
 
 fcl.config()
   .put("accessNode.api", "https://access-testnet.onflow.org")
-  .put("discovery.wallet", "https://flow-wallet-testnet.blocto.app/authn")
+  .put("discovery.wallet", "https://fcl-discovery.onflow.org/testnet/authn")
+  .put("discovery.authn.endpoint", "https://fcl-discovery.onflow.org/api/testnet/authn")
 
 
 const Navbar = () => {
