@@ -1,16 +1,15 @@
 import React from "react";
-import DiscHero from "../components/disc-hero/Disc-hero";
+import LearnHero from "../components/learn-hero/Learn-hero";
 import Line from "../components/line-separator/Line";
-import Art from "../components/art/Art";
+
 
 
 
 const App = () => {
   return (
     <div className="App">
-      <DiscHero />
+      <LearnHero />
       <Line />
-      <Art />
     </div>
   );
 };

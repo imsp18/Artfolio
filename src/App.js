@@ -16,8 +16,8 @@ function App (){
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/discover" element={<Discover />} />
-        <Route path="/learn" element={<Learn />} />
         <Route path="/tokenize" element={<Tokenize />} />
+        <Route path="/learn" element={<Learn />} />
       </Routes>
       <Footer />
     </Router>
