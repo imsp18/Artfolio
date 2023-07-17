@@ -71,3 +71,74 @@ input[type="text"] {
     padding-left: 15px;
 }
 
+.learn-1,
+.learn-2,
+.learn-3 {
+    width: 400px;
+    height: 500px;
+    border-radius: 14px;
+    background: #2C2E2B;
+}
+.learn-container {
+    margin-top: 100px;
+    margin-left: 185px;
+    margin-right: 185px;
+    display: flex;
+    flex-direction: column;
+    font-family: Work Sans;
+
+}
+.learn-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    text-align: justify;
+    color: #FFF;
+    margin: 0 16px 0 16px;
+    font-family: Work Sans;
+    font-size: 20px;
+    
+
+}
+.learn-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.learn-1 .learn-img1 {
+    
+    margin: 20px 80px 41px 9px;
+}
+.learn-2 .learn-img2 {
+    
+    margin: 20px 80px 41px 9px;
+}
+.learn-3 .learn-img3 {
+    
+    margin: 20px 80px 41px 9px;
+}
+.learn-button{
+    /* display: flex; */
+    justify-content: center ;
+    width: 100px;
+    height: 40px;
+    border-radius: 12px;
+    border: 1px solid #FFF;
+    background: none;
+    align-items: center;
+    font-size: 15px;
+    font-family: poppins;
+    color: #FFF;
+    text-align: center;
+    font-weight: 600;
+    /* margin: 0 5px 0 5px; */
+    text-decoration: none;
+}
+.learn-button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+    
+}

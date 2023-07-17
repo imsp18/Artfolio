@@ -2,7 +2,7 @@ import React from "react";
 import "./navbar.css";
 import { NavLink } from "react-router-dom";
 import * as fcl from "@onflow/fcl";
-import * as t from "@onflow/types";
+// import * as t from "@onflow/types";
 import { useEffect, useState } from "react";
 import logout from "./assets/log-out.svg";
 
