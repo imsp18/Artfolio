@@ -1,79 +1,99 @@
 import React from "react";
 import "./learn-hero.css";
-import Image from "./assets/Image.svg";
-import Image1 from "./assets/Image1.svg";
-import Image2 from "./assets/Image2.svg";
-import ReactPlayer from "react-player";
+import img1 from "./assets/Image.svg";
+import img2 from "./assets/Image2.svg";
+import img3 from "./assets/Image1.svg";
+import arrow from "./assets/Arrow Icon.svg";
+import { NavLink } from "react-router-dom";
+// import YouTubePlayer from "./video1";
 
-function LearnVideo() {
+const Courses = () => {
   return (
-    <div className="learn-container">
-      <div className="learn-content">
-        <div className="learn-1">
-          <div className="learn-desc">
-            <div className="learn-img1">
-              <img src={Image} alt="figma" />
+    <div className="courses-container">
+      <div className="row-1">
+        <div className="course-1">
+          <div className="course-info">
+            <div className="course-img">
+              <img src={img1} alt="" />
             </div>
-            <h1
-              style={{ color: "#02B377", fontWeight: "bold", fontSize: "24px" }}
-            >
-              FIGMA BASICS
-            </h1>
-            <p>
-              Dive into fundamentals of Figma and elevate your design skills
-              with our comprehensive course.
-            </p>
+            <div className="course-text">
+              <h1>Figma Basics</h1>
+              <p>
+                Dive into the fundamentals of Figma and elevate your design
+                skills with our comprehensive course.
+              </p>
+            </div>
+            <div className="course-detail">
+              <div className="course-stats">
+                <h1>Artfolio</h1>
+                <p>May 25th 2023</p>
+              </div>
+              <div className="course-button">
+                <NavLink to="/course1">
+                  <img src={arrow} alt="">
+                    {/* <YouTubePlayer /> */}
+                  </img>
+                </NavLink>
+                {/* <Outlet /> */}
+              </div>
+            </div>
           </div>
-
-          {/* <NavLink to="/discover" className="button">Discover <img src={Arrow} alt="Arrow" /></NavLink>
-           */}
-          {/* onClick={{ src: "https://youtu.be/OdSgDir6XKs" }} */}
-          <button className="learn-button">Click here</button>
         </div>
-        <div className="learn-2">
-          <div className="learn-desc">
-            <div className="learn-img2">
-              <img src={Image2} alt="figma" />
+        <div className="course-2">
+          <div className="course-info">
+            <div className="course-img">
+              <img src={img2} alt="" />
             </div>
-            <h1
-              style={{ color: "#02B377", fontWeight: "bold", fontSize: "24px" }}
-            >
-              UX RESEARCH
-            </h1>
-            <p>
-              Explore the world of UX research and unlock valuable insights with
-              our concise course preview.
-            </p>
+            <div className="course-text">
+              <h1>UX Research</h1>
+              <p>
+                Explore the world of UX research and unlock valuable insights
+                with our concise course preview.
+              </p>
+            </div>
+            <div className="course-detail">
+              <div className="course-stats">
+                <h1>Artfolio</h1>
+                <p>May 25th 2023</p>
+              </div>
+              <div className="course-button">
+                <NavLink to="/course2">
+                  <img src={arrow} alt="" />
+                </NavLink>
+                {/* <Outlet /> */}
+              </div>
+            </div>
           </div>
-          {/* <div className="feature-button2">
-                    <NavLink to="/learn" className="button">Learn <img src={Arrow} alt="Arrow" /></NavLink>
-                </div> */}
-          <button className="learn-button">Click here</button>
         </div>
-        <div className="learn-3">
-          <div className="learn-desc">
-            <div className="learn-img3">
-              <img src={Image1} alt="figma" />
+        <div className="course-3">
+          <div className="course-info">
+            <div className="course-img">
+              <img src={img3} alt="" />
             </div>
-            <h1
-              style={{ color: "#02B377", fontWeight: "bold", fontSize: "24px" }}
-            >
-              COLOR THEORY
-            </h1>
-            <p>
-              Explore the world of color theory and elevate your design
-              aesthetics with our captivating course preview.
-            </p>
+            <div className="course-text">
+              <h1>Color Theory</h1>
+              <p>
+                Explore the world of color theory and elevate your design
+                aesthetics with our captivating course preview.
+              </p>
+            </div>
+            <div className="course-detail">
+              <div className="course-stats">
+                <h1>Artfolio</h1>
+                <p>June 3rd 2023</p>
+              </div>
+              <div className="course-button">
+                <NavLink to="/course3">
+                  <img src={arrow} alt="" />
+                </NavLink>
+                {/* <Outlet /> */}
+              </div>
+            </div>
           </div>
-
-          {/* <div className="feature-button3">
-                    <NavLink to="/learn" className="button">Quiz <img src={Arrow} alt="Arrow" /></NavLink>
-                </div> */}
-          <button className="learn-button">Click here</button>
         </div>
       </div>
     </div>
   );
-}
+};
 
-export default LearnVideo;
+export default Courses;

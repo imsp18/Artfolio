@@ -71,7 +71,7 @@ input[type="text"] {
     padding-left: 15px;
 }
 
-.learn-1,
+/* .learn-1,
 .learn-2,
 .learn-3 {
     width: 400px;
@@ -118,9 +118,9 @@ input[type="text"] {
 .learn-3 .learn-img3 {
     
     margin: 20px 80px 41px 9px;
-}
-.learn-button{
-    /* display: flex; */
+} */
+/* .learn-button{
+    display: flex;
     justify-content: center ;
     width: 100px;
     height: 40px;
@@ -133,7 +133,7 @@ input[type="text"] {
     color: #FFF;
     text-align: center;
     font-weight: 600;
-    /* margin: 0 5px 0 5px; */
+    margin: 0 5px 0 5px;
     text-decoration: none;
 }
 .learn-button:hover{
@@ -141,4 +141,117 @@ input[type="text"] {
     transform: scale(1.1);
     transition: 0.5s ease-in-out;
     
+} */
+.courses-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 94px;
+    margin-right: 94px;
+    margin-top: 87px;
 }
+
+.courses-container .row-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.courses-container .course-info {
+    display: flex;
+    flex-direction: column;
+    width: 396px;
+    height: 425px;
+    border-radius: 14px;
+    background: #2C2E2B;
+}
+
+.course-info .course-img {
+    width: 356.1px;
+    height: 197.5px;
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.course-text {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.course-text h1 {
+    color: #49D886;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.course-text p {
+    color: #FFF;
+    font-family: Playfair Display;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.course-detail {
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-content: space-between;
+    display: flex;
+    align-items: flex-end;
+}
+
+.course-stats {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.course-stats h1 {
+    color: #FFF;
+    font-family: Playfair Display;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
+
+.course-stats p {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+
+}
+.course-button{
+    margin-bottom: 20px;
+}
+
+.course-button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.video-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+  }
+  
+  .video-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
